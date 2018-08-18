@@ -17,5 +17,8 @@ module.exports = {
             }
         ]
     },
-    plugins: [htmlPlugin]
+    plugins: [htmlPlugin],
+    resolve: {
+        extensions: ['.js', '.jsx']
+    }
 };
